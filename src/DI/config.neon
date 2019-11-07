@@ -1,0 +1,6 @@
+services:
+	sumator: 
+		factory: Miarra\Calculator\Sumator
+
+	calculator: 
+		factory: Miarra\Calculator\Calculator(@extension.sumator)

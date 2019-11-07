@@ -1,0 +1,14 @@
+{
+    "name": "miarra/calculator",
+    "type": "library",
+    "description": "Muj první push a načtení composerem :D hihi",
+    "license": ["BSD-3-Clause", "GPL-2.0-or-later", "GPL-3.0-or-later"],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Miarra\\Calculator\\": "src/"
+        }
+    }
+}
